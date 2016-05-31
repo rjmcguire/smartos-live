@@ -156,12 +156,6 @@ set sd:sd_io_time=10
 set hires_tick=1
 
 *
-* XXX Disable the "apix" module in this custom platform image to see if it
-* prevents interrupts from the Smart Array controller disappearing forever
-*
-set apix_enable=0
-
-*
 * XXX Shorten the ZFS deadman delay to 180 seconds (three minutes)
 *
 set zfs:zfs_deadman_synctime_ms=180000
